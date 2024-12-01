@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2207C1F82CFC5F1B00F1A82A /* ChatBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2207C1F72CFC5F1B00F1A82A /* ChatBotApp.swift */; };
-		2207C1FA2CFC5F1B00F1A82A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2207C1F92CFC5F1B00F1A82A /* ContentView.swift */; };
-		2207C1FC2CFC5F1C00F1A82A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2207C1FB2CFC5F1C00F1A82A /* Assets.xcassets */; };
-		2207C1FF2CFC5F1C00F1A82A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2207C1FE2CFC5F1C00F1A82A /* Preview Assets.xcassets */; };
+		223EBB3C2CFC60DB00B7B7EB /* ChatBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EBB3B2CFC60DB00B7B7EB /* ChatBotApp.swift */; };
+		223EBB3E2CFC60DB00B7B7EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223EBB3D2CFC60DB00B7B7EB /* ContentView.swift */; };
+		223EBB402CFC60DC00B7B7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223EBB3F2CFC60DC00B7B7EB /* Assets.xcassets */; };
+		223EBB432CFC60DC00B7B7EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223EBB422CFC60DC00B7B7EB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2207C1F42CFC5F1B00F1A82A /* ChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2207C1F72CFC5F1B00F1A82A /* ChatBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotApp.swift; sourceTree = "<group>"; };
-		2207C1F92CFC5F1B00F1A82A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2207C1FB2CFC5F1C00F1A82A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2207C1FE2CFC5F1C00F1A82A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		223EBB382CFC60DB00B7B7EB /* ChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		223EBB3B2CFC60DB00B7B7EB /* ChatBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotApp.swift; sourceTree = "<group>"; };
+		223EBB3D2CFC60DB00B7B7EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		223EBB3F2CFC60DC00B7B7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		223EBB422CFC60DC00B7B7EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2207C1F12CFC5F1B00F1A82A /* Frameworks */ = {
+		223EBB352CFC60DB00B7B7EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2207C1EB2CFC5F1B00F1A82A = {
+		223EBB2F2CFC60DB00B7B7EB = {
 			isa = PBXGroup;
 			children = (
-				2207C1F62CFC5F1B00F1A82A /* ChatBot */,
-				2207C1F52CFC5F1B00F1A82A /* Products */,
+				223EBB3A2CFC60DB00B7B7EB /* ChatBot */,
+				223EBB392CFC60DB00B7B7EB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2207C1F52CFC5F1B00F1A82A /* Products */ = {
+		223EBB392CFC60DB00B7B7EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2207C1F42CFC5F1B00F1A82A /* ChatBot.app */,
+				223EBB382CFC60DB00B7B7EB /* ChatBot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2207C1F62CFC5F1B00F1A82A /* ChatBot */ = {
+		223EBB3A2CFC60DB00B7B7EB /* ChatBot */ = {
 			isa = PBXGroup;
 			children = (
-				2207C1F72CFC5F1B00F1A82A /* ChatBotApp.swift */,
-				2207C1F92CFC5F1B00F1A82A /* ContentView.swift */,
-				2207C1FB2CFC5F1C00F1A82A /* Assets.xcassets */,
-				2207C1FD2CFC5F1C00F1A82A /* Preview Content */,
+				223EBB3B2CFC60DB00B7B7EB /* ChatBotApp.swift */,
+				223EBB3D2CFC60DB00B7B7EB /* ContentView.swift */,
+				223EBB3F2CFC60DC00B7B7EB /* Assets.xcassets */,
+				223EBB412CFC60DC00B7B7EB /* Preview Content */,
 			);
 			path = ChatBot;
 			sourceTree = "<group>";
 		};
-		2207C1FD2CFC5F1C00F1A82A /* Preview Content */ = {
+		223EBB412CFC60DC00B7B7EB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2207C1FE2CFC5F1C00F1A82A /* Preview Assets.xcassets */,
+				223EBB422CFC60DC00B7B7EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2207C1F32CFC5F1B00F1A82A /* ChatBot */ = {
+		223EBB372CFC60DB00B7B7EB /* ChatBot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2207C2022CFC5F1C00F1A82A /* Build configuration list for PBXNativeTarget "ChatBot" */;
+			buildConfigurationList = 223EBB462CFC60DC00B7B7EB /* Build configuration list for PBXNativeTarget "ChatBot" */;
 			buildPhases = (
-				2207C1F02CFC5F1B00F1A82A /* Sources */,
-				2207C1F12CFC5F1B00F1A82A /* Frameworks */,
-				2207C1F22CFC5F1B00F1A82A /* Resources */,
+				223EBB342CFC60DB00B7B7EB /* Sources */,
+				223EBB352CFC60DB00B7B7EB /* Frameworks */,
+				223EBB362CFC60DB00B7B7EB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = ChatBot;
 			productName = ChatBot;
-			productReference = 2207C1F42CFC5F1B00F1A82A /* ChatBot.app */;
+			productReference = 223EBB382CFC60DB00B7B7EB /* ChatBot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2207C1EC2CFC5F1B00F1A82A /* Project object */ = {
+		223EBB302CFC60DB00B7B7EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					2207C1F32CFC5F1B00F1A82A = {
+					223EBB372CFC60DB00B7B7EB = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 2207C1EF2CFC5F1B00F1A82A /* Build configuration list for PBXProject "ChatBot" */;
+			buildConfigurationList = 223EBB332CFC60DB00B7B7EB /* Build configuration list for PBXProject "ChatBot" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 2207C1EB2CFC5F1B00F1A82A;
-			productRefGroup = 2207C1F52CFC5F1B00F1A82A /* Products */;
+			mainGroup = 223EBB2F2CFC60DB00B7B7EB;
+			productRefGroup = 223EBB392CFC60DB00B7B7EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2207C1F32CFC5F1B00F1A82A /* ChatBot */,
+				223EBB372CFC60DB00B7B7EB /* ChatBot */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2207C1F22CFC5F1B00F1A82A /* Resources */ = {
+		223EBB362CFC60DB00B7B7EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2207C1FF2CFC5F1C00F1A82A /* Preview Assets.xcassets in Resources */,
-				2207C1FC2CFC5F1C00F1A82A /* Assets.xcassets in Resources */,
+				223EBB432CFC60DC00B7B7EB /* Preview Assets.xcassets in Resources */,
+				223EBB402CFC60DC00B7B7EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2207C1F02CFC5F1B00F1A82A /* Sources */ = {
+		223EBB342CFC60DB00B7B7EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2207C1FA2CFC5F1B00F1A82A /* ContentView.swift in Sources */,
-				2207C1F82CFC5F1B00F1A82A /* ChatBotApp.swift in Sources */,
+				223EBB3E2CFC60DB00B7B7EB /* ContentView.swift in Sources */,
+				223EBB3C2CFC60DB00B7B7EB /* ChatBotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2207C2002CFC5F1C00F1A82A /* Debug */ = {
+		223EBB442CFC60DC00B7B7EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		2207C2012CFC5F1C00F1A82A /* Release */ = {
+		223EBB452CFC60DC00B7B7EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +264,7 @@
 			};
 			name = Release;
 		};
-		2207C2032CFC5F1C00F1A82A /* Debug */ = {
+		223EBB472CFC60DC00B7B7EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,7 +293,7 @@
 			};
 			name = Debug;
 		};
-		2207C2042CFC5F1C00F1A82A /* Release */ = {
+		223EBB482CFC60DC00B7B7EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2207C1EF2CFC5F1B00F1A82A /* Build configuration list for PBXProject "ChatBot" */ = {
+		223EBB332CFC60DB00B7B7EB /* Build configuration list for PBXProject "ChatBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2207C2002CFC5F1C00F1A82A /* Debug */,
-				2207C2012CFC5F1C00F1A82A /* Release */,
+				223EBB442CFC60DC00B7B7EB /* Debug */,
+				223EBB452CFC60DC00B7B7EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2207C2022CFC5F1C00F1A82A /* Build configuration list for PBXNativeTarget "ChatBot" */ = {
+		223EBB462CFC60DC00B7B7EB /* Build configuration list for PBXNativeTarget "ChatBot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2207C2032CFC5F1C00F1A82A /* Debug */,
-				2207C2042CFC5F1C00F1A82A /* Release */,
+				223EBB472CFC60DC00B7B7EB /* Debug */,
+				223EBB482CFC60DC00B7B7EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2207C1EC2CFC5F1B00F1A82A /* Project object */;
+	rootObject = 223EBB302CFC60DB00B7B7EB /* Project object */;
 }
