@@ -1,7 +1,8 @@
-// TODO:
-// 1. Implement secure token management
-// 2. Create methods for various authentication providers
-// 3. Add account lockout mechanism
-// 4. Implement password reset workflow
-// 5. Create user session management
-// 6. Add multi-factor authentication support
+import FirebaseAuth
+
+protocol AuthenticationService {
+    func signUpWithEmail(email: String, password: String, completion: @escaping (Result<User, Error>) -> Void)
+    func loginWithEmail(email: String, password: String, completion: @escaping (Result<User, Error>) -> Void)
+    func socialLogin(provider: SocialProvider, completion: @escaping (Result<User, Error>) -> Void)
+    func saveAdditionalUserInfo(userId: String, username: String, apiToken: String, completion: @escaping (Error?) -> Void)
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "690144AE-A1BF-4D40-AC14-7EAD72F9C612"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "930B3E61-C36A-497D-AA32-9643EE07A85D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "testSignUpWithEmail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "930B3E61-C36A-497D-AA32-9643EE07A85D - 21c4322a5c6826f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatBot.AuthServiceTests.testSignUpWithEmail() -&gt; ()"
+                  moduleName = "ChatBot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29">
+               </Location>
+               <Location
+                  uuid = "930B3E61-C36A-497D-AA32-9643EE07A85D - 36bf7de8e77617a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatBotTests.AuthServiceTests.testSignUpWithEmail() -&gt; ()"
+                  moduleName = "ChatBotTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5535EA28-CD2E-40DA-8E4B-5BADA433F699"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBot/Services/Authentication/FirebaseAuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "signUpWithEmail(email:password:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5535EA28-CD2E-40DA-8E4B-5BADA433F699 - fbd8f20bee8eca7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBot.FirebaseAuthService.signUpWithEmail(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;FirebaseAuth.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ChatBot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Services/Authentication/FirebaseAuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17">
+               </Location>
+               <Location
+                  uuid = "5535EA28-CD2E-40DA-8E4B-5BADA433F699 - fbd8f20bee8eca7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBot.FirebaseAuthService.signUpWithEmail(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;FirebaseAuth.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ChatBot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Services/Authentication/FirebaseAuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6551F89-B505-4BC3-B9C4-EA4D4EB46893"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBot/Services/Authentication/FirebaseAuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "signUpWithEmail(email:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
