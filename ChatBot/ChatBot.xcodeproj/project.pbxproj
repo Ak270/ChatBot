@@ -54,7 +54,7 @@
 		229BF1C72CFF713A0013CDB6 /* ChatBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BF1C62CFF713A0013CDB6 /* ChatBotTests.swift */; };
 		229BF1CF2CFFEC230013CDB6 /* AuthServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BF1B72CFF6EF50013CDB6 /* AuthServiceTests.swift */; };
 		229BF1D02CFFEC270013CDB6 /* AuthServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BF1B72CFF6EF50013CDB6 /* AuthServiceTests.swift */; };
-		22D36F742CFE0DFC008B25E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22D36F732CFE0DFC008B25E8 /* GoogleService-Info.plist */; };
+		22BEE9EF2D013B3B007561D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22BEE9EE2D013B3B007561D6 /* GoogleService-Info.plist */; };
 		22D36F772CFE0EFF008B25E8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 22D36F762CFE0EFF008B25E8 /* FirebaseAnalytics */; };
 		22D36F792CFE0EFF008B25E8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 22D36F782CFE0EFF008B25E8 /* FirebaseAuth */; };
 		22D36F7B2CFE0EFF008B25E8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 22D36F7A2CFE0EFF008B25E8 /* FirebaseFirestore */; };
@@ -118,7 +118,7 @@
 		229BF1BC2CFF709B0013CDB6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		229BF1C42CFF713A0013CDB6 /* ChatBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229BF1C62CFF713A0013CDB6 /* ChatBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotTests.swift; sourceTree = "<group>"; };
-		22D36F732CFE0DFC008B25E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22BEE9EE2D013B3B007561D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22D36F7F2CFE25D2008B25E8 /* UserStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,8 +168,8 @@
 		22789C982CFC649D00CCEC2F /* ChatBot */ = {
 			isa = PBXGroup;
 			children = (
+				22BEE9EE2D013B3B007561D6 /* GoogleService-Info.plist */,
 				229BF1B92CFF6EF50013CDB6 /* Tests */,
-				22D36F732CFE0DFC008B25E8 /* GoogleService-Info.plist */,
 				22789D7A2CFC667500CCEC2F /* Utilities */,
 				22789D6D2CFC665A00CCEC2F /* SupportingFiles */,
 				22789D622CFC664B00CCEC2F /* Services */,
@@ -566,9 +566,9 @@
 			files = (
 				22789CA12CFC649E00CCEC2F /* Preview Assets.xcassets in Resources */,
 				22789D532CFC663400CCEC2F /* Localizable.strings in Resources */,
-				22D36F742CFE0DFC008B25E8 /* GoogleService-Info.plist in Resources */,
 				22789D542CFC663400CCEC2F /* Assets.xcassets in Resources */,
 				22789C9E2CFC649E00CCEC2F /* Assets.xcassets in Resources */,
+				22BEE9EF2D013B3B007561D6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

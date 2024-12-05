@@ -37,7 +37,7 @@ class FirebaseAuthService: AuthenticationService {
                 return
             }
             completion(.success(user))
-        }
+         }
     }
 
     func socialLogin(provider: SocialProvider, completion: @escaping (Result<User, Error>) -> Void) {
@@ -104,7 +104,21 @@ class FirebaseAuthService: AuthenticationService {
         }
     }
 
+    func logout(completion: @escaping (Result<Bool, Error>) -> Void) {
+        let firebaseAuth = Auth.auth()
+        do {
+            // If Google sign-in was used
+            if GIDSignIn.sharedInstance.hasPreviousSignIn() {
+                GIDSignIn.sharedInstance.signOut()
+            }
 
+            // Sign out from Firebase
+            try firebaseAuth.signOut()
+            completion(.success(true))
+        } catch let signOutError as NSError {
+            completion(.failure(signOutError))
+        }
+    }
 
     func saveAdditionalUserInfo(userId: String, username: String, apiToken: String, completion: @escaping (Error?) -> Void) {
         let userInfo: [String: Any] = ["username": username, "apiToken": apiToken]

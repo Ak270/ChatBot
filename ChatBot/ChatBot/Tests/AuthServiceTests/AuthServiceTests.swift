@@ -15,6 +15,7 @@ final class AuthServiceTests: XCTestCase {
                                       gcmSenderID: "947960277660")
         options.apiKey = "AIzaSyBWf7Cq79EiWrxJJhQ9BdTwB-L6t32RpEQ"
         options.projectID = "chatbot-bf688"
+        options.clientID = "947960277660-rhjpa592a8769su1k3epq55tnnnqhafp.apps.googleusercontent.com"
         
         FirebaseApp.configure(options: options)
         authService = FirebaseAuthService()
@@ -79,14 +80,32 @@ final class AuthServiceTests: XCTestCase {
         waitForExpectations(timeout: 10)
     }
     
-//    func testLogout() {
-//        let expectation = self.expectation(description: "User should log out successfully.")
-//        
-//        authService.logout { success in
-//            XCTAssertTrue(success, "Logout should succeed.")
-//            expectation.fulfill()
-//        }
-//        
-//        waitForExpectations(timeout: 5)
-//    }
+    
+    
+    func testLogout() {
+        let expectation = self.expectation(description: "User should log out successfully.")
+
+        // Simulate user sign-in for testing
+        Auth.auth().signIn(withEmail: "testuser@example.com", password: "TestPassword123!") { result, error in
+            guard let _ = result, error == nil else {
+                XCTFail("Sign-in failed. Can't test logout.")
+                return
+            }
+
+            // Now test logout
+            self.authService.logout { result in
+                switch result {
+                case .success(let success):
+                    XCTAssertTrue(success, "Logout should succeed.")
+                    XCTAssertNil(Auth.auth().currentUser, "User should be logged out.")
+                    expectation.fulfill()
+                case .failure(let error):
+                    XCTFail("Logout failed with error: \(error.localizedDescription)")
+                }
+            }
+        }
+
+        waitForExpectations(timeout: 5)
+    }
+
 }
