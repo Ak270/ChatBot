@@ -18,36 +18,6 @@
             endingLineNumber = "30"
             landmarkName = "testSignUpWithEmail()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "930B3E61-C36A-497D-AA32-9643EE07A85D - 21c4322a5c6826d9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ChatBot.AuthServiceTests.testSignUpWithEmail() -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30">
-               </Location>
-               <Location
-                  uuid = "930B3E61-C36A-497D-AA32-9643EE07A85D - 36bf7de8e7761789"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ChatBotTests.AuthServiceTests.testSignUpWithEmail() -&gt; ()"
-                  moduleName = "ChatBotTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -60,40 +30,10 @@
             filePath = "ChatBot/Services/Authentication/FirebaseAuthService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "signUpWithEmail(email:password:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "5535EA28-CD2E-40DA-8E4B-5BADA433F699 - fbd8f20bee8eca7d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBot.FirebaseAuthService.signUpWithEmail(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;FirebaseAuth.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Services/Authentication/FirebaseAuthService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17">
-               </Location>
-               <Location
-                  uuid = "5535EA28-CD2E-40DA-8E4B-5BADA433F699 - fbd8f20bee8eca7d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBot.FirebaseAuthService.signUpWithEmail(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;FirebaseAuth.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Services/Authentication/FirebaseAuthService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -110,36 +50,6 @@
             endingLineNumber = "49"
             landmarkName = "testLoginWithEmail()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D1EB3C77-543F-421C-8BD7-6BD710E1099D - 88c06b5826ca65c2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ChatBot.AuthServiceTests.testLoginWithEmail() -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49">
-               </Location>
-               <Location
-                  uuid = "D1EB3C77-543F-421C-8BD7-6BD710E1099D - 8042d0506f9377d2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ChatBotTests.AuthServiceTests.testLoginWithEmail() -&gt; ()"
-                  moduleName = "ChatBotTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -156,36 +66,6 @@
             endingLineNumber = "57"
             landmarkName = "testLoginWithEmail()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "6551454E-D037-43B1-9A17-0EEAE360941B - f797a558c958a290"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;FirebaseAuth.User, Swift.Error&gt;) -&gt; () in ChatBot.AuthServiceTests.testLoginWithEmail() -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57">
-               </Location>
-               <Location
-                  uuid = "6551454E-D037-43B1-9A17-0EEAE360941B - a6e11ba9de152a48"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;FirebaseAuth.User, Swift.Error&gt;) -&gt; () in ChatBotTests.AuthServiceTests.testLoginWithEmail() -&gt; ()"
-                  moduleName = "ChatBotTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -198,40 +78,10 @@
             filePath = "ChatBot/Services/Authentication/FirebaseAuthService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "loginWithEmail(email:password:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0E3DEC6A-C44F-4E8C-A643-67B18C14FE56 - 6dcd290b6a0f165d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBot.FirebaseAuthService.loginWithEmail(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;FirebaseAuth.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Services/Authentication/FirebaseAuthService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31">
-               </Location>
-               <Location
-                  uuid = "0E3DEC6A-C44F-4E8C-A643-67B18C14FE56 - 6dcd290b6a0f165d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBot.FirebaseAuthService.loginWithEmail(email: Swift.String, password: Swift.String, completion: (Swift.Result&lt;FirebaseAuth.User, Swift.Error&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Services/Authentication/FirebaseAuthService.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -248,36 +98,6 @@
             endingLineNumber = "90"
             landmarkName = "testLogout()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D758177C-F41A-437F-8D9D-4BB4BDF09EB3 - 5991d2b331f3345f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBot.AuthServiceTests.testLogout() -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "90"
-                  endingLineNumber = "90">
-               </Location>
-               <Location
-                  uuid = "D758177C-F41A-437F-8D9D-4BB4BDF09EB3 - ecee7d2afe00d897"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBotTests.AuthServiceTests.testLogout() -&gt; ()"
-                  moduleName = "ChatBotTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "90"
-                  endingLineNumber = "90">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -294,64 +114,6 @@
             endingLineNumber = "96"
             landmarkName = "testLogout()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AD24475B-5589-4618-BC42-276A1E3BDE05 - 5991d2b331f33595"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBot.AuthServiceTests.testLogout() -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96">
-               </Location>
-               <Location
-                  uuid = "AD24475B-5589-4618-BC42-276A1E3BDE05 - 7753ed3f8c8156d1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Bool, Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBot.AuthServiceTests.testLogout() -&gt; ()"
-                  moduleName = "ChatBot"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96">
-               </Location>
-               <Location
-                  uuid = "AD24475B-5589-4618-BC42-276A1E3BDE05 - ecee7d2afe00d95d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBotTests.AuthServiceTests.testLogout() -&gt; ()"
-                  moduleName = "ChatBotTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96">
-               </Location>
-               <Location
-                  uuid = "AD24475B-5589-4618-BC42-276A1E3BDE05 - 6d33e5a12bdf093b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Bool, Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;FirebaseAuth.AuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChatBotTests.AuthServiceTests.testLogout() -&gt; ()"
-                  moduleName = "ChatBotTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/amarkelotra/ios%20projects/App/ChatBot/ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -364,9 +126,105 @@
             filePath = "ChatBot/Services/Authentication/FirebaseAuthService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "logout(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F442215-C23A-41AB-9919-1B98F457DEC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "testSaveAdditionalUserInfoAfterLogin()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "954043AB-E00D-4646-804C-7E84A8EA37B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "testSaveAdditionalUserInfoAfterLogin()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB3341AA-A342-4B6B-8A4C-8E9D1E06FC64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBot/Services/Authentication/FirebaseAuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "saveAdditionalUserInfo(userId:username:apiToken:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3318B2E3-5C0E-41A9-A835-EC8C0537B1DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "testSaveAdditionalUserInfoAfterLogin()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21E07D52-A01B-41FD-A1F9-DFD97EEAFC51"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBot/Tests/AuthServiceTests/AuthServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "testResetPassword()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A75DA43E-4AB1-4D60-B09E-E5170E197FB5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBot/Services/Authentication/FirebaseAuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "resetPassword(email:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
